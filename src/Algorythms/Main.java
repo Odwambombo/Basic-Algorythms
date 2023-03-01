@@ -1,11 +1,11 @@
-package InsertionSort;
+package Algorythms;
 
 public class Main {
     public static void main(String[] args) {
 
         int[] numbers = new int[]{1,10,6,3,4,9};
         insertion(numbers);
-        //mergeSort(numbers);
+        mergeSort(numbers);
         for (int i=0; i < numbers.length; i++){
             System.out.print(numbers[i]+ " ");
         }
